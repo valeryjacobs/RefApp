@@ -1,0 +1,4 @@
+C:\Code\AppBase\RefApp\RefApp.Repositories\bin\Release\RefApp.Repositories.dll
+C:\Code\AppBase\RefApp\RefApp.Repositories\bin\Release\RefApp.Repositories.pdb
+C:\Code\AppBase\RefApp\RefApp.Repositories\obj\Release\RefApp.Repositories.dll
+C:\Code\AppBase\RefApp\RefApp.Repositories\obj\Release\RefApp.Repositories.pdb
