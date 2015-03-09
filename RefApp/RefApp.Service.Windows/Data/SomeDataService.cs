@@ -29,7 +29,7 @@ namespace RefApp.Service.Windows.Data
 
             var someObject = await someObjectRepository.GetSomeObject();
 
-            return someObject;
+            return someObject; 
            
         }
 

@@ -74,3 +74,11 @@ C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\quali
 C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\GalaSoft.MvvmLight.Platform.pri.xml
 C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles
+C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles.intermediate
+C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles
+C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles.intermediate
+C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles
+C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles.intermediate
+C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml
+C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml.intermediate
