@@ -14,11 +14,11 @@ namespace RefApp.Service.Windows.Infrastructure
         public string Parameter { get; set; }
         public string ViewName { get; set; }
 
-        public StateService()
-        {
-            localSettings = ApplicationData.Current.LocalSettings;
+        //public StateService()
+        //{
+        //    localSettings = ApplicationData.Current.LocalSettings;
 
-        }
+        //}
 
         public void AddState(string viewName, string parameter)
         {

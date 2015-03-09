@@ -43,8 +43,6 @@
     <Compile Include="Models\ISomeOtherObjectInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ICacheDataService.cs" />
-    <Compile Include="Services\IDialogService.cs" />
-    <Compile Include="Services\INavigationService.cs" />
     <Compile Include="Services\IPushNotificationServices.cs" />
     <Compile Include="Services\ISomeDataService.cs" />
     <Compile Include="Services\IStateService.cs" />
@@ -52,7 +50,6 @@
     <Compile Include="ViewModels\ISomeOtherObjectDetailViewModel.cs" />
     <Compile Include="ViewModels\ISubSetOfSomeObjectViewModel.cs" />
     <Compile Include="ViewModels\IViewModel.cs" />
-    <Compile Include="Views\IFrame.cs" />
     <Compile Include="Views\ISomeObjectDetailView.cs" />
     <Compile Include="Views\ISomeOtherObjectDetailView.cs" />
     <Compile Include="Views\ISubSetOfSomeObjectView.cs" />

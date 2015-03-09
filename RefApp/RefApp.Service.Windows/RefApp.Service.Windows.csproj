@@ -59,9 +59,7 @@
   <ItemGroup>
     <Compile Include="Data\CacheDataService.cs" />
     <Compile Include="Data\SomeDataService.cs" />
-    <Compile Include="Infrastructure\DialogService.cs" />
     <Compile Include="Infrastructure\Frame.cs" />
-    <Compile Include="Infrastructure\NavigationService.cs" />
     <Compile Include="Infrastructure\PushNotificationService.cs" />
     <Compile Include="Infrastructure\StateService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
