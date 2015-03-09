@@ -19,6 +19,16 @@ namespace RefApp.Repositories.Windows
         private const string SomeObjectDataFileName = "data.xml";
 
         //gets from the service all the tile infos
+
+        public async Task<ISomeObjectDetail> GetSomeObject()
+        {
+            return  new SomeObjectDetail()
+            {
+                SomeDetailProp = "Yess!!!",
+                SomeIntProp = 2,
+                SomeStringProp = "Dit is het echte werk!!!"
+            };
+        }
         public async Task<ObservableCollection<ISomeObjectInfo>> GetSomeObjects()
         {
             ObservableCollection<ISomeObjectInfo> setOfSomeObject = new ObservableCollection<ISomeObjectInfo>();

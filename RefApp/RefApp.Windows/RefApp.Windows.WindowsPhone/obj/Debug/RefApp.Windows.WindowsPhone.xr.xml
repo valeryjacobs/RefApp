@@ -2,6 +2,7 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="SomeObjectDetailViewModel" />
+    <RootPropertyPathName Name="TestBinding" />
     <RootPropertyPathName Name="SomeOtherObjectDetailViewModel" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -15,12 +16,18 @@
       <RootProperty Name="DataContext" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Grid" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Children" />
+    </RootType>
     <RootType FullName="RefApp.Windows.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Source" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Text" />
+    </RootType>
     <RootType FullName="RefApp.Windows.Views.SomeObjectDetailView" />
     <RootType FullName="RefApp.Windows.Views.SomeOtherObjectDetailView" />
   </Roots.RootTypes>

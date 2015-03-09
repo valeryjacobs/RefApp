@@ -43,10 +43,6 @@
       <Project>{6aac1823-84ac-4266-bf49-c89d78b8c547}</Project>
       <Name>RefApp.Repositories.Windows</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RefApp.Repositories\RefApp.Repositories.csproj">
-      <Project>{8bf8bd3c-b7e6-4faf-a311-1bbd6f781ec5}</Project>
-      <Name>RefApp.Repositories</Name>
-    </ProjectReference>
     <ProjectReference Include="..\RefApp.Shared\RefApp.SharedPCL.csproj">
       <Project>{c8fb71d7-34c6-400c-968a-7f29f3ea1074}</Project>
       <Name>RefApp.SharedPCL</Name>

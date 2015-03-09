@@ -2,7 +2,8 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="SomeObjectDetailViewModel" />
-    <RootPropertyPathName Name="TestBinding" />
+    <RootPropertyPathName Name="SelectedObject" />
+    <RootPropertyPathName Name="SomeStringProp" />
     <RootPropertyPathName Name="SomeOtherObjectDetailViewModel" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -25,7 +26,9 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Margin" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Inlines" />
       <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="RefApp.Windows.Views.SomeObjectDetailView" />

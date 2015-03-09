@@ -38,37 +38,17 @@ namespace RefApp.Windows.ViewModel
         /// </summary>
         public ViewModelLocator()
         {
-
-            // InstanceFactory.RegisterType<ISomeObjectDetailViewModel,
-            //    SomeObjectDetailViewModel>();
-
-            // //View registration
-            // InstanceFactory.RegisterType<ISomeObjectDetailView,
-            //     SomeObjectDetailView>();
-
-
-            // //Services registration
-            // InstanceFactory.RegisterType<ISomeDataService,
-            //     SomeDataService>();
-            // InstanceFactory.RegisterType<INavigationService,
-            //     NavigationService>();
-            // InstanceFactory.RegisterType<IDialogService, DialogService>();
-            // //InstanceFactory.RegisterType<IPushNotificationService, PushNotificationService>();
-
-            // //InstanceFactory.RegisterType<ITileService, TileService>();
-            //// InstanceFactory.RegisterType<IToastService, ToastService>();
-            // InstanceFactory.RegisterType<IStateService, StateService>();
-            // InstanceFactory.RegisterType<ICacheDataService, CacheDataService>();
-
-
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
 
             var navigationService = this.CreateNavigationService();
             SimpleIoc.Default.Register<INavigationService>(() => navigationService);
             SimpleIoc.Default.Register<IDialogService, DialogService>();
             SimpleIoc.Default.Register<MainViewModel>();
-            SimpleIoc.Default.Register<SomeObjectDetailViewModel>();
+            //SimpleIoc.Default.Register<SomeObjectDetailViewModel>();
             SimpleIoc.Default.Register<IStateService, StateService>();
+
+            SimpleIoc.Default.Register<ISomeObjectDetailViewModel, SomeObjectDetailViewModel>();
+            SimpleIoc.Default.Register<ISomeOtherObjectDetailViewModel, SomeOtherObjectDetailViewModel>();
 
             //if (ViewModelBase.IsInDesignModeStatic)
             //{
@@ -82,10 +62,6 @@ namespace RefApp.Windows.ViewModel
             //}
 
             SimpleIoc.Default.Register<ICacheDataService, CacheDataService>();
-
-            
-
-
         }
 
         private INavigationService CreateNavigationService()
@@ -109,6 +85,22 @@ namespace RefApp.Windows.ViewModel
         public static void Cleanup()
         {
             // TODO Clear the ViewModels
+        }
+
+        public ISomeObjectDetailViewModel SomeObjectDetailViewModel
+        {
+            get
+            {
+                return SimpleIoc.Default.GetInstance<ISomeObjectDetailViewModel>();
+            }
+        }
+
+        public ISomeOtherObjectDetailViewModel SomeOtherObjectDetailViewModel
+        {
+            get
+            {
+                return SimpleIoc.Default.GetInstance<ISomeOtherObjectDetailViewModel>();
+            }
         }
     }
 }

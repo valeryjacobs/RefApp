@@ -26,7 +26,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.Windows\bin\Debug\RefApp.Windows.Windows.exe">
       <PackagePath>RefApp.Windows.Windows.exe</PackagePath>
-      <Modified>2015-03-09T16:22:58.533</Modified>
+      <Modified>2015-03-09T20:47:01.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\packages\MvvmLightLibs.5.1.1.0\lib\windows81\GalaSoft.MvvmLight.dll">
       <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
@@ -50,7 +50,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Service.Windows.dll">
       <PackagePath>RefApp.Service.Windows.dll</PackagePath>
-      <Modified>2015-03-09T16:15:23.918</Modified>
+      <Modified>2015-03-09T20:47:00.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Shared\bin\Debug\RefApp.SharedPCL.dll">
       <PackagePath>RefApp.SharedPCL.dll</PackagePath>
@@ -58,15 +58,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.ViewModels.Windows\bin\Debug\RefApp.ViewModels.Windows.dll">
       <PackagePath>RefApp.ViewModels.Windows.dll</PackagePath>
-      <Modified>2015-03-09T16:21:28.869</Modified>
+      <Modified>2015-03-09T20:46:59.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Repositories.Windows.dll">
       <PackagePath>RefApp.Repositories.Windows.dll</PackagePath>
-      <Modified>2015-03-09T16:15:23.471</Modified>
+      <Modified>2015-03-09T20:46:59.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Model.dll">
       <PackagePath>RefApp.Model.dll</PackagePath>
       <Modified>2015-03-09T16:15:22.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Shared.Windows\bin\Debug\RefApp.Shared.Windows.dll">
+      <PackagePath>RefApp.Shared.Windows.dll</PackagePath>
+      <Modified>2015-03-06T16:18:24.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -98,7 +102,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.Windows\bin\Debug\Views\SomeObjectDetailView.xbf">
       <PackagePath>Views\SomeObjectDetailView.xbf</PackagePath>
-      <Modified>2015-03-09T16:22:58.359</Modified>
+      <Modified>2015-03-09T20:31:49.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.Windows\bin\Debug\Views\SomeOtherObjectDetailView.xbf">
       <PackagePath>Views\SomeOtherObjectDetailView.xbf</PackagePath>
@@ -106,19 +110,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.Windows\bin\Debug\RefApp.Windows.Windows.xr.xml">
       <PackagePath>RefApp.Windows.Windows.xr.xml</PackagePath>
-      <Modified>2015-03-09T16:22:58.345</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Repositories\bin\Debug\RefApp.Repositories.dll">
-      <PackagePath>RefApp.Repositories.dll</PackagePath>
-      <Modified>2015-03-06T14:32:18.907</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Shared.Windows\bin\Debug\RefApp.Shared.Windows.dll">
-      <PackagePath>RefApp.Shared.Windows.dll</PackagePath>
-      <Modified>2015-03-06T16:18:24.792</Modified>
+      <Modified>2015-03-09T20:31:49.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-03-09T16:22:58.987</Modified>
+      <Modified>2015-03-09T20:47:01.637</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

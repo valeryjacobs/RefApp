@@ -46,8 +46,11 @@
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Repositories.Windows.dll">
       <PackagePath>RefApp.Repositories.Windows.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Model.dll">
+    <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.ViewModels.Windows\bin\Debug\RefApp.Model.dll">
       <PackagePath>RefApp.Model.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Shared.Windows\bin\Debug\RefApp.Shared.Windows.dll">
+      <PackagePath>RefApp.Shared.Windows.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
@@ -90,9 +93,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Repositories\bin\Debug\RefApp.Repositories.dll">
       <PackagePath>RefApp.Repositories.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Shared.Windows\bin\Debug\RefApp.Shared.Windows.dll">
-      <PackagePath>RefApp.Shared.Windows.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

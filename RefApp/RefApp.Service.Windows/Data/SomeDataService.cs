@@ -23,9 +23,14 @@ namespace RefApp.Service.Windows.Data
             return someObjects;
         }
 
-        public Task<ISomeObjectDetail> GetSomeObjectDetailWithSetOfSomeOtherObject(string someObjectId)
+        public async Task<ISomeObjectDetail> GetSomeObjectDetailWithSetOfSomeOtherObject(string someObjectId)
         {
-            throw new NotImplementedException();
+            SomeObjectRepository someObjectRepository = new SomeObjectRepository();
+
+            var someObject = await someObjectRepository.GetSomeObject();
+
+            return someObject;
+           
         }
 
         public Task<ISomeOtherObjectDetail> GetSomeOtherObjectDetails(string someOtherObjectId)

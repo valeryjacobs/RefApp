@@ -66,3 +66,5 @@ C:\Code\RefApp\RefApp\RefApp.ViewModels.Windows\obj\Debug\pri.resfiles.intermedi
 C:\Code\RefApp\RefApp\RefApp.ViewModels.Windows\obj\Debug\qualifiers.txt
 C:\Code\RefApp\RefApp\RefApp.ViewModels.Windows\obj\Debug\qualifiers.txt.intermediate
 C:\Code\RefApp\RefApp\RefApp.ViewModels.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Code\RefApp\RefApp\RefApp.ViewModels.Windows\bin\Debug\RefApp.Model.dll
+C:\Code\RefApp\RefApp\RefApp.ViewModels.Windows\bin\Debug\RefApp.Model.pdb

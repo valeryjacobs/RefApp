@@ -4,6 +4,7 @@ using GalaSoft.MvvmLight.Views;
 using RefApp.Contracts.Models;
 using RefApp.Contracts.Services;
 using RefApp.Contracts.ViewModels;
+using RefApp.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,11 +21,13 @@ namespace RefApp.ViewModels.Windows
         private INavigationService navigationService;
         private ISomeObjectDetail selectedObjectDetail;
 
-        string _testBinding;
+        string _testBinding = " hoi ";
         public string TestBinding
         {
-            get { 
-                return "hoi"; }
+            get
+            {
+                return _testBinding;
+            }
             set
             {
                 _testBinding = value;
@@ -51,6 +54,7 @@ namespace RefApp.ViewModels.Windows
             this.navigationService = navigationService;
 
             InitializeCommands();
+            Initialize("");
         }
 
         private void InitializeCommands()
@@ -65,6 +69,14 @@ namespace RefApp.ViewModels.Windows
         {
             SelectedObject =
                 await someDataService.GetSomeObjectDetailWithSetOfSomeOtherObject(parameter.ToString());
+
+            //SelectedObject = new SomeObjectDetail()
+            //{
+            //    SomeDetailProp = "fgdfg",
+            //    SomeIntProp = 2,
+            //    SomeStringProp = "sdfsdf"
+            //};
+
         }
     }
 }

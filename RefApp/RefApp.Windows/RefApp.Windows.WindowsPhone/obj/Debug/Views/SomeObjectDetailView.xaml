@@ -10,7 +10,7 @@
     DataContext="{Binding SomeObjectDetailViewModel, Source={StaticResource MainViewModelLocator}}">
 
     <Grid>
-
+        <TextBlock FontSize="40" Text="{Binding TestBinding}"></TextBlock>
     </Grid>
 </Page>
 

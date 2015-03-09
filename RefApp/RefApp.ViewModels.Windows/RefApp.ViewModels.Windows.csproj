@@ -39,6 +39,10 @@
       <Project>{81afd6ac-5387-4803-b468-a69a5c5c553b}</Project>
       <Name>RefApp.Contracts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\RefApp.Model\RefApp.Model.csproj">
+      <Project>{24f3f5d6-44e7-46ae-81fa-96a829587ae9}</Project>
+      <Name>RefApp.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RefApp.Shared.Windows\RefApp.Shared.Windows.csproj">
       <Project>{4b06ae92-f502-4069-b2b1-ea1176917078}</Project>
       <Name>RefApp.Shared.Windows</Name>

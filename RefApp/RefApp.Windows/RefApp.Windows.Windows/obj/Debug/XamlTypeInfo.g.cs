@@ -124,31 +124,35 @@ namespace RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[11];
+            _typeNameTable = new string[13];
             _typeNameTable[0] = "RefApp.Windows.ViewModel.ViewModelLocator";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "RefApp.Windows.ViewModel.MainViewModel";
             _typeNameTable[3] = "GalaSoft.MvvmLight.ViewModelBase";
             _typeNameTable[4] = "GalaSoft.MvvmLight.ObservableObject";
-            _typeNameTable[5] = "RefApp.Windows.MainPage";
-            _typeNameTable[6] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[7] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[8] = "RefApp.Windows.Views.SomeObjectDetailView";
-            _typeNameTable[9] = "RefApp.Contracts.ViewModels.IViewModel";
-            _typeNameTable[10] = "RefApp.Windows.Views.SomeOtherObjectDetailView";
+            _typeNameTable[5] = "RefApp.Contracts.ViewModels.ISomeObjectDetailViewModel";
+            _typeNameTable[6] = "RefApp.Contracts.ViewModels.ISomeOtherObjectDetailViewModel";
+            _typeNameTable[7] = "RefApp.Windows.MainPage";
+            _typeNameTable[8] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[9] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[10] = "RefApp.Windows.Views.SomeObjectDetailView";
+            _typeNameTable[11] = "RefApp.Contracts.ViewModels.IViewModel";
+            _typeNameTable[12] = "RefApp.Windows.Views.SomeOtherObjectDetailView";
 
-            _typeTable = new global::System.Type[11];
+            _typeTable = new global::System.Type[13];
             _typeTable[0] = typeof(global::RefApp.Windows.ViewModel.ViewModelLocator);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::RefApp.Windows.ViewModel.MainViewModel);
             _typeTable[3] = typeof(global::GalaSoft.MvvmLight.ViewModelBase);
             _typeTable[4] = typeof(global::GalaSoft.MvvmLight.ObservableObject);
-            _typeTable[5] = typeof(global::RefApp.Windows.MainPage);
-            _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[8] = typeof(global::RefApp.Windows.Views.SomeObjectDetailView);
-            _typeTable[9] = typeof(global::RefApp.Contracts.ViewModels.IViewModel);
-            _typeTable[10] = typeof(global::RefApp.Windows.Views.SomeOtherObjectDetailView);
+            _typeTable[5] = typeof(global::RefApp.Contracts.ViewModels.ISomeObjectDetailViewModel);
+            _typeTable[6] = typeof(global::RefApp.Contracts.ViewModels.ISomeOtherObjectDetailViewModel);
+            _typeTable[7] = typeof(global::RefApp.Windows.MainPage);
+            _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[9] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[10] = typeof(global::RefApp.Windows.Views.SomeObjectDetailView);
+            _typeTable[11] = typeof(global::RefApp.Contracts.ViewModels.IViewModel);
+            _typeTable[12] = typeof(global::RefApp.Windows.Views.SomeOtherObjectDetailView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -185,9 +189,9 @@ namespace RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo
 
         private object Activate_0_ViewModelLocator() { return new global::RefApp.Windows.ViewModel.ViewModelLocator(); }
         private object Activate_4_ObservableObject() { return new global::GalaSoft.MvvmLight.ObservableObject(); }
-        private object Activate_5_MainPage() { return new global::RefApp.Windows.MainPage(); }
-        private object Activate_8_SomeObjectDetailView() { return new global::RefApp.Windows.Views.SomeObjectDetailView(); }
-        private object Activate_10_SomeOtherObjectDetailView() { return new global::RefApp.Windows.Views.SomeOtherObjectDetailView(); }
+        private object Activate_7_MainPage() { return new global::RefApp.Windows.MainPage(); }
+        private object Activate_10_SomeObjectDetailView() { return new global::RefApp.Windows.Views.SomeObjectDetailView(); }
+        private object Activate_12_SomeOtherObjectDetailView() { return new global::RefApp.Windows.Views.SomeOtherObjectDetailView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -203,6 +207,8 @@ namespace RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo
                 userType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_0_ViewModelLocator;
                 userType.AddMemberName("Main");
+                userType.AddMemberName("SomeObjectDetailViewModel");
+                userType.AddMemberName("SomeOtherObjectDetailViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -229,38 +235,50 @@ namespace RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 5:   //  RefApp.Windows.MainPage
-                userType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_MainPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 6:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 7:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 8:   //  RefApp.Windows.Views.SomeObjectDetailView
-                userType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_SomeObjectDetailView;
-                userType.AddMemberName("ViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 9:   //  RefApp.Contracts.ViewModels.IViewModel
+            case 5:   //  RefApp.Contracts.ViewModels.ISomeObjectDetailViewModel
                 userType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 10:   //  RefApp.Windows.Views.SomeOtherObjectDetailView
+            case 6:   //  RefApp.Contracts.ViewModels.ISomeOtherObjectDetailViewModel
+                userType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 7:   //  RefApp.Windows.MainPage
                 userType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_SomeOtherObjectDetailView;
+                userType.Activator = Activate_7_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  Windows.UI.Xaml.Controls.Page
+                xamlType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 9:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 10:   //  RefApp.Windows.Views.SomeObjectDetailView
+                userType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_SomeObjectDetailView;
+                userType.AddMemberName("ViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  RefApp.Contracts.ViewModels.IViewModel
+                userType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 12:   //  RefApp.Windows.Views.SomeOtherObjectDetailView
+                userType = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_SomeOtherObjectDetailView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -274,7 +292,17 @@ namespace RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo
             var that = (global::RefApp.Windows.ViewModel.ViewModelLocator)instance;
             return that.Main;
         }
-        private object get_1_SomeObjectDetailView_ViewModel(object instance)
+        private object get_1_ViewModelLocator_SomeObjectDetailViewModel(object instance)
+        {
+            var that = (global::RefApp.Windows.ViewModel.ViewModelLocator)instance;
+            return that.SomeObjectDetailViewModel;
+        }
+        private object get_2_ViewModelLocator_SomeOtherObjectDetailViewModel(object instance)
+        {
+            var that = (global::RefApp.Windows.ViewModel.ViewModelLocator)instance;
+            return that.SomeOtherObjectDetailViewModel;
+        }
+        private object get_3_SomeObjectDetailView_ViewModel(object instance)
         {
             var that = (global::RefApp.Windows.Views.SomeObjectDetailView)instance;
             return that.ViewModel;
@@ -293,10 +321,22 @@ namespace RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo
                 xamlMember.Getter = get_0_ViewModelLocator_Main;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "RefApp.Windows.ViewModel.ViewModelLocator.SomeObjectDetailViewModel":
+                userType = (global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RefApp.Windows.ViewModel.ViewModelLocator");
+                xamlMember = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlMember(this, "SomeObjectDetailViewModel", "RefApp.Contracts.ViewModels.ISomeObjectDetailViewModel");
+                xamlMember.Getter = get_1_ViewModelLocator_SomeObjectDetailViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "RefApp.Windows.ViewModel.ViewModelLocator.SomeOtherObjectDetailViewModel":
+                userType = (global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RefApp.Windows.ViewModel.ViewModelLocator");
+                xamlMember = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlMember(this, "SomeOtherObjectDetailViewModel", "RefApp.Contracts.ViewModels.ISomeOtherObjectDetailViewModel");
+                xamlMember.Getter = get_2_ViewModelLocator_SomeOtherObjectDetailViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
             case "RefApp.Windows.Views.SomeObjectDetailView.ViewModel":
                 userType = (global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RefApp.Windows.Views.SomeObjectDetailView");
                 xamlMember = new global::RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo.XamlMember(this, "ViewModel", "RefApp.Contracts.ViewModels.IViewModel");
-                xamlMember.Getter = get_1_SomeObjectDetailView_ViewModel;
+                xamlMember.Getter = get_3_SomeObjectDetailView_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             }
@@ -624,5 +664,6 @@ namespace RefApp.Windows.RefApp_Windows_Windows_XamlTypeInfo
         }
     }
 }
+
 
 

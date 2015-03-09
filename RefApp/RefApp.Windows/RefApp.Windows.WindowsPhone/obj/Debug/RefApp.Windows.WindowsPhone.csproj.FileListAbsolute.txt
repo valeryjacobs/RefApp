@@ -59,14 +59,6 @@ C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\RefAp
 C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\RefApp.Windows.WindowsPhone.pdb
 C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\en-US\Microsoft.Practices.ServiceLocation.Properties.Resources.resw
 C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\RefApp.Windows.WindowsPhone.csproj.GenerateResource.Cache
-C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles
-C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles.intermediate
-C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles
-C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles.intermediate
-C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles
-C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles.intermediate
-C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml
-C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml.intermediate
 C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation.pri
 C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\qualifiers.txt
 C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.WindowsPhone\obj\Debug\priconfig.xml

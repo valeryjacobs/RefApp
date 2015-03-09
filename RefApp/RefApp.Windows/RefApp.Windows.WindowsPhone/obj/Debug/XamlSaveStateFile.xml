@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\code\refapp\refapp\refapp.windows\refapp.windows.windowsphone\obj\debug\intermediatexaml\refapp.windows.windowsphone.exe" HashGuid="9eb7afd8-b72d-b217-c0e2-4f3f281c7bb2" />
+    <LocalAssembly PathName="c:\code\refapp\refapp\refapp.windows\refapp.windows.windowsphone\obj\debug\intermediatexaml\refapp.windows.windowsphone.exe" HashGuid="39f66cfc-51e2-9d9b-3508-de9f884ef9b5" />
     <ReferenceAssembly PathName="c:\code\refapp\refapp\packages\mvvmlightlibs.5.1.1.0\lib\wpa81\galasoft.mvvmlight.dll" HashGuid="d702f8e6-9904-1220-8de7-be8614bf93e8" />
     <ReferenceAssembly PathName="c:\code\refapp\refapp\packages\mvvmlightlibs.5.1.1.0\lib\wpa81\galasoft.mvvmlight.extras.dll" HashGuid="f59e2cac-89a1-06f4-bbe7-18857251ef78" />
     <ReferenceAssembly PathName="c:\code\refapp\refapp\packages\mvvmlightlibs.5.1.1.0\lib\wpa81\galasoft.mvvmlight.platform.dll" HashGuid="27c4f135-c15f-18a2-cb9f-847748d33bdb" />
@@ -8,6 +8,6 @@
     <ReferenceAssembly PathName="c:\code\refapp\refapp\refapp.contracts\bin\debug\refapp.contracts.dll" HashGuid="4b8ad7bb-331c-ae61-2235-29ce584cbda8" />
     <ReferenceAssembly PathName="c:\code\refapp\refapp\refapp.service.windows\bin\debug\refapp.service.windows.dll" HashGuid="7395f667-d18a-796d-a9c3-d8609220ee30" />
     <ReferenceAssembly PathName="c:\code\refapp\refapp\refapp.shared\bin\debug\refapp.sharedpcl.dll" HashGuid="2e1d2a6f-0c82-0842-be32-4a12997024be" />
-    <ReferenceAssembly PathName="c:\code\refapp\refapp\refapp.viewmodels.windows\bin\debug\refapp.viewmodels.windows.dll" HashGuid="d1d022dc-8248-1d18-f6a6-af91ad1cc717" />
+    <ReferenceAssembly PathName="c:\code\refapp\refapp\refapp.viewmodels.windows\bin\debug\refapp.viewmodels.windows.dll" HashGuid="0b8b7b23-545e-9452-df2f-81d82011d512" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

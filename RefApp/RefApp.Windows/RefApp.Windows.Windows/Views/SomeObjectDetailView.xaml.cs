@@ -1,4 +1,5 @@
-﻿using RefApp.Contracts.Views;
+﻿using RefApp.Contracts.ViewModels;
+using RefApp.Contracts.Views;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,11 +27,15 @@ namespace RefApp.Windows.Views
         public SomeObjectDetailView()
         {
             this.InitializeComponent();
+
+            
         }
 
-        public Contracts.ViewModels.IViewModel ViewModel
+        public IViewModel ViewModel
         {
-            get { throw new NotImplementedException(); }
+            get { return this.DataContext as IViewModel; }
         }
+
+     
     }
 }

@@ -32,14 +32,12 @@ C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Service.Windows.dl
 C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Service.Windows.pdb
 C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Service.Windows.pri
 C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Contracts.dll
-C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Repositories.dll
 C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Repositories.Windows.dll
 C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.SharedPCL.dll
 C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Model.dll
 C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Contracts.pdb
 C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Repositories.Windows.pdb
 C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Repositories.Windows.pri
-C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Repositories.pdb
 C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.SharedPCL.pdb
 C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Model.pdb
 C:\Code\RefApp\RefApp\RefApp.Service.Windows\obj\Debug\RefApp.Service.Windows.csprojResolveAssemblyReference.cache

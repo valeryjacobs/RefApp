@@ -49,6 +49,9 @@
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Service.Windows\bin\Debug\RefApp.Model.dll">
       <PackagePath>RefApp.Model.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Shared.Windows\bin\Debug\RefApp.Shared.Windows.dll">
+      <PackagePath>RefApp.Shared.Windows.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -79,12 +82,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.Windows\bin\Debug\RefApp.Windows.Windows.xr.xml">
       <PackagePath>RefApp.Windows.Windows.xr.xml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Repositories\bin\Debug\RefApp.Repositories.dll">
-      <PackagePath>RefApp.Repositories.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Shared.Windows\bin\Debug\RefApp.Shared.Windows.dll">
-      <PackagePath>RefApp.Shared.Windows.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RefApp\RefApp\RefApp.Windows\RefApp.Windows.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
